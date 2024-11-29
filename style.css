@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+
+:root {
+    --rosewater: #f4dbd6;
+    --flamingo: #f0c6c6;
+    --pink: #f5bde6;
+    --mauve: #c6a0f6;
+    --red: #ed8796;
+    --maroon: #ee99a0;
+    --peach: #f5a97f;
+    --yellow: #eed49f;
+    --green: #a6da95;
+    --teal: #8bd5ca;
+    --sky: #91d7e3;
+    --sapphire: #7dc4e4;
+    --blue: #8aadf4;
+    --lavender: #b7bdf8;
+    --text: #cad3f5;
+    --subtext1: #b8c0e0;
+    --subtext0: #a5adcb;
+    --overlay2: #939ab7;
+    --overlay1: #8087a2;
+    --overlay0: #6e738d;
+    --surface2: #5b6078;
+    --surface1: #494d64;
+    --surface0: #363a4f;
+    --base: #24273a;
+    --mantle: #1e2030;
+    --crust: #181926;
+}
+
+* {
+    font-family: "Noto Sans HK", serif;
+}
+
+html {
+    background-color: var(--base);
+    color: var(--text);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16pt;
+}
+
+body {
+    width: 100%;
+    max-width: 30rem;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.25rem;
+}
+
+h1, h2, h3, h4, h5, h6 { margin: 0; }
