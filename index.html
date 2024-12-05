@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
     </head>
@@ -9,6 +10,17 @@
         <h1 id="name"></h1>
         <div id="connect">
             <h2 id="connect_id"></h2>
+            <div class="group">
+                <input id="connect_input"><button id="connect_btn"></button>
+            </div>
+        </div>
+        <div id="play" style="display:none;">
+            <div id="choices">
+                <button id="lobster"></button>
+                <button id="poop"></button>
+                <button id="you_eat"></button>
+                <button id="i_eat"></button>
+            </div>
         </div>
         <script src="script.js"></script>
     </body>

@@ -58,3 +58,55 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 { margin: 0; }
+
+button {
+    outline: none;
+    background-color: var(--surface0);
+    color: var(--text);
+    border: 0;
+    border-radius: 0;
+    padding: 0.45rem;
+    transition: 0.25s;
+}
+
+button:hover {
+    background-color: var(--surface1);
+}
+
+input {
+    outline: none;
+    background-color: var(--base);
+    color: var(--text);
+    border: 0.1rem solid transparent;
+    border-bottom-color: var(--surface0);
+    border-radius: 0;
+    padding: 0.25rem;
+    transition: 0.25s;
+}
+
+input:focus {
+    background-color: var(--surface1);
+    border-bottom-color: var(--surface1);
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 0.25rem;
+}
+
+.group > *:last-child {
+    margin-left: auto;
+}
+
+#choices {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 0.25rem;
+}
+
+#choices > button {
+    flex: 1;
+}
